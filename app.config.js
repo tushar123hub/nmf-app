@@ -5,9 +5,9 @@ const buildNumber = 50;
 
 module.exports = () => {
   return {
-    name: "NMF.earth",
+    name: "tushar.earth",
     plugins: ["sentry-expo"],
-    slug: "not-my-fault-earth",
+    slug: "tusharappforcio2",
     privacy: "public",
     platforms: ["ios", "android"],
     version: "0.10.0",
@@ -23,7 +23,7 @@ module.exports = () => {
     assetBundlePatterns: ["**/*"],
     extra: {
       eas: {
-        projectId: "9e1873d6-966a-49a3-83bc-10254ac6fb27",
+        projectId: "ae4ee989-54e4-4242-82f4-5b2fe8f6aaef",
       },
     },
     ios: {

@@ -76,9 +76,6 @@ const SettingsScreen: NavStatelessComponent = () => {
       <Text.Tertiary bold lightGray style={styles.appVersionTitle}>
         {t("SETTINGS_SCREEN_APP_VERSION", { version }) + "-" + buildNumber}
       </Text.Tertiary>
-
-      <SocialMedia />
-
       {!__DEV__ && (
         <View style={styles.textContainer}>
           <Text.Secondary darkGray center style={styles.quote}>
